@@ -9,10 +9,15 @@
 import SpriteKit
 import GameplayKit
 
+let TickLengthLevelOne = TimeInterval(600)
+
 class GameScene: SKScene {
     
-    private var label : SKLabelNode?
-    private var spinnyNode : SKShapeNode?
+    //private var label : SKLabelNode?
+    //private var spinnyNode : SKShapeNode?
+    var tick:(()->())?
+    var tickLengthMillis =  TickLengthLevelOne
+    var lastTick:NSDate?
     
     required init(coder aDecoder: NSCoder) {
         fatalError("NSCoder not supported")
@@ -68,5 +73,24 @@ class GameScene: SKScene {
     
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
+        guard let lastTick =  lastTick else{
+            return
+        }
+        
+        let timePassed = lastTick.timeIntervalSinceNow * -1000.0
+        if timePassed > tickLengthMillis{
+            self.lastTick =  NSDate()
+            tick?()
+        }
+        
     }
+    
+    func startTicking(){
+        lastTick=NSDate()
+    }
+    
+    func stopTicking(){
+        lastTick=nil
+    }
+    
 }
