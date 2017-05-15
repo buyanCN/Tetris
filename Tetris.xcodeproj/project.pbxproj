@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		33871EB01EC2DD9D00A884AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33871EAF1EC2DD9D00A884AA /* AppDelegate.swift */; };
-		33871EB21EC2DD9D00A884AA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 33871EB11EC2DD9D00A884AA /* GameScene.sks */; };
 		33871EB41EC2DD9D00A884AA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 33871EB31EC2DD9D00A884AA /* Actions.sks */; };
 		33871EB61EC2DD9D00A884AA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33871EB51EC2DD9D00A884AA /* GameScene.swift */; };
 		33871EB81EC2DD9D00A884AA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33871EB71EC2DD9D00A884AA /* GameViewController.swift */; };
@@ -16,6 +15,23 @@
 		33871EBD1EC2DD9D00A884AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33871EBC1EC2DD9D00A884AA /* Assets.xcassets */; };
 		33871EC01EC2DD9D00A884AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33871EBE1EC2DD9D00A884AA /* LaunchScreen.storyboard */; };
 		33871ECB1EC2DD9D00A884AA /* TetrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33871ECA1EC2DD9D00A884AA /* TetrisTests.swift */; };
+		33871EDB1EC2ECD000A884AA /* bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33871ED61EC2ECD000A884AA /* bomb.mp3 */; };
+		33871EDC1EC2ECD000A884AA /* drop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33871ED71EC2ECD000A884AA /* drop.mp3 */; };
+		33871EDD1EC2ECD000A884AA /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33871ED81EC2ECD000A884AA /* gameover.mp3 */; };
+		33871EDE1EC2ECD000A884AA /* levelup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33871ED91EC2ECD000A884AA /* levelup.mp3 */; };
+		33871EDF1EC2ECD000A884AA /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33871EDA1EC2ECD000A884AA /* theme.mp3 */; };
+		33871EE31EC2EE8100A884AA /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 33871EE21EC2EE8100A884AA /* Sprites.atlas */; };
+		33871EE51EC3581600A884AA /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33871EE41EC3581600A884AA /* Array2D.swift */; };
+		33871EE71EC3FE7F00A884AA /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33871EE61EC3FE7F00A884AA /* Block.swift */; };
+		33871EE91EC40C3D00A884AA /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33871EE81EC40C3D00A884AA /* Shape.swift */; };
+		33871EEB1EC440A300A884AA /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33871EEA1EC440A300A884AA /* SquareShape.swift */; };
+		33871EED1EC44D4200A884AA /* TShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33871EEC1EC44D4200A884AA /* TShape.swift */; };
+		33871EEF1EC4567600A884AA /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33871EEE1EC4567600A884AA /* LineShape.swift */; };
+		33871EF11EC459D900A884AA /* LShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33871EF01EC459D900A884AA /* LShape.swift */; };
+		33871EF31EC45DA600A884AA /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33871EF21EC45DA600A884AA /* JShape.swift */; };
+		33871EF51EC4613A00A884AA /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33871EF41EC4613A00A884AA /* ZShape.swift */; };
+		33871EF71EC4616800A884AA /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33871EF61EC4616800A884AA /* SShape.swift */; };
+		33871EF91EC4B1E600A884AA /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33871EF81EC4B1E600A884AA /* Swiftris.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +47,6 @@
 /* Begin PBXFileReference section */
 		33871EAC1EC2DD9D00A884AA /* Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33871EAF1EC2DD9D00A884AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33871EB11EC2DD9D00A884AA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		33871EB31EC2DD9D00A884AA /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		33871EB51EC2DD9D00A884AA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		33871EB71EC2DD9D00A884AA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +57,23 @@
 		33871EC61EC2DD9D00A884AA /* TetrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33871ECA1EC2DD9D00A884AA /* TetrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisTests.swift; sourceTree = "<group>"; };
 		33871ECC1EC2DD9D00A884AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33871ED61EC2ECD000A884AA /* bomb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bomb.mp3; sourceTree = "<group>"; };
+		33871ED71EC2ECD000A884AA /* drop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drop.mp3; sourceTree = "<group>"; };
+		33871ED81EC2ECD000A884AA /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		33871ED91EC2ECD000A884AA /* levelup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = levelup.mp3; sourceTree = "<group>"; };
+		33871EDA1EC2ECD000A884AA /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theme.mp3; sourceTree = "<group>"; };
+		33871EE21EC2EE8100A884AA /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Sprites.atlas; path = Sounds/Sprites.atlas; sourceTree = "<group>"; };
+		33871EE41EC3581600A884AA /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		33871EE61EC3FE7F00A884AA /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		33871EE81EC40C3D00A884AA /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		33871EEA1EC440A300A884AA /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
+		33871EEC1EC44D4200A884AA /* TShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShape.swift; sourceTree = "<group>"; };
+		33871EEE1EC4567600A884AA /* LineShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
+		33871EF01EC459D900A884AA /* LShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LShape.swift; sourceTree = "<group>"; };
+		33871EF21EC45DA600A884AA /* JShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
+		33871EF41EC4613A00A884AA /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
+		33871EF61EC4616800A884AA /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
+		33871EF81EC4B1E600A884AA /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +100,8 @@
 				33871EAE1EC2DD9D00A884AA /* Tetris */,
 				33871EC91EC2DD9D00A884AA /* TetrisTests */,
 				33871EAD1EC2DD9D00A884AA /* Products */,
+				33871EE21EC2EE8100A884AA /* Sprites.atlas */,
+				33871ED51EC2ECD000A884AA /* Sounds */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				33871EAF1EC2DD9D00A884AA /* AppDelegate.swift */,
-				33871EB11EC2DD9D00A884AA /* GameScene.sks */,
 				33871EB31EC2DD9D00A884AA /* Actions.sks */,
 				33871EB51EC2DD9D00A884AA /* GameScene.swift */,
 				33871EB71EC2DD9D00A884AA /* GameViewController.swift */,
@@ -92,6 +125,17 @@
 				33871EBC1EC2DD9D00A884AA /* Assets.xcassets */,
 				33871EBE1EC2DD9D00A884AA /* LaunchScreen.storyboard */,
 				33871EC11EC2DD9D00A884AA /* Info.plist */,
+				33871EE41EC3581600A884AA /* Array2D.swift */,
+				33871EE61EC3FE7F00A884AA /* Block.swift */,
+				33871EE81EC40C3D00A884AA /* Shape.swift */,
+				33871EEA1EC440A300A884AA /* SquareShape.swift */,
+				33871EEC1EC44D4200A884AA /* TShape.swift */,
+				33871EEE1EC4567600A884AA /* LineShape.swift */,
+				33871EF81EC4B1E600A884AA /* Swiftris.swift */,
+				33871EF01EC459D900A884AA /* LShape.swift */,
+				33871EF21EC45DA600A884AA /* JShape.swift */,
+				33871EF41EC4613A00A884AA /* ZShape.swift */,
+				33871EF61EC4616800A884AA /* SShape.swift */,
 			);
 			path = Tetris;
 			sourceTree = "<group>";
@@ -103,6 +147,18 @@
 				33871ECC1EC2DD9D00A884AA /* Info.plist */,
 			);
 			path = TetrisTests;
+			sourceTree = "<group>";
+		};
+		33871ED51EC2ECD000A884AA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				33871ED61EC2ECD000A884AA /* bomb.mp3 */,
+				33871ED71EC2ECD000A884AA /* drop.mp3 */,
+				33871ED81EC2ECD000A884AA /* gameover.mp3 */,
+				33871ED91EC2ECD000A884AA /* levelup.mp3 */,
+				33871EDA1EC2ECD000A884AA /* theme.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,11 +246,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33871EDD1EC2ECD000A884AA /* gameover.mp3 in Resources */,
 				33871EBB1EC2DD9D00A884AA /* Main.storyboard in Resources */,
-				33871EB21EC2DD9D00A884AA /* GameScene.sks in Resources */,
+				33871EDB1EC2ECD000A884AA /* bomb.mp3 in Resources */,
 				33871EBD1EC2DD9D00A884AA /* Assets.xcassets in Resources */,
+				33871EE31EC2EE8100A884AA /* Sprites.atlas in Resources */,
 				33871EC01EC2DD9D00A884AA /* LaunchScreen.storyboard in Resources */,
 				33871EB41EC2DD9D00A884AA /* Actions.sks in Resources */,
+				33871EDE1EC2ECD000A884AA /* levelup.mp3 in Resources */,
+				33871EDC1EC2ECD000A884AA /* drop.mp3 in Resources */,
+				33871EDF1EC2ECD000A884AA /* theme.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +273,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33871EF11EC459D900A884AA /* LShape.swift in Sources */,
+				33871EEB1EC440A300A884AA /* SquareShape.swift in Sources */,
 				33871EB61EC2DD9D00A884AA /* GameScene.swift in Sources */,
+				33871EF31EC45DA600A884AA /* JShape.swift in Sources */,
+				33871EF91EC4B1E600A884AA /* Swiftris.swift in Sources */,
+				33871EF71EC4616800A884AA /* SShape.swift in Sources */,
+				33871EE91EC40C3D00A884AA /* Shape.swift in Sources */,
+				33871EE51EC3581600A884AA /* Array2D.swift in Sources */,
+				33871EF51EC4613A00A884AA /* ZShape.swift in Sources */,
+				33871EEF1EC4567600A884AA /* LineShape.swift in Sources */,
+				33871EED1EC44D4200A884AA /* TShape.swift in Sources */,
+				33871EE71EC3FE7F00A884AA /* Block.swift in Sources */,
 				33871EB81EC2DD9D00A884AA /* GameViewController.swift in Sources */,
 				33871EB01EC2DD9D00A884AA /* AppDelegate.swift in Sources */,
 			);
