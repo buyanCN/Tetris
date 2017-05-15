@@ -116,6 +116,7 @@ class GameScene: SKScene {
     }
     
     func addPreviewShapeToScene(shape:Shape, completion:@escaping ()->()){
+        //print("addPreviewShapeToScene: \(shape.description)")
         for block in shape.blocks{
             var texture = textureCache[block.spriteName]
             if texture == nil{
@@ -141,6 +142,7 @@ class GameScene: SKScene {
     }
     
     func movePreviewShape(shape:Shape, completion:@escaping ()->()){
+        //print("movePreviewShape: \(shape.description)")
         for block in shape.blocks{
             let sprite = block.sprite!
             let moveTo = pointForColumn(column: block.column, row: block.row)
@@ -151,7 +153,8 @@ class GameScene: SKScene {
         run(SKAction.wait(forDuration: 0.2), completion: completion)
     }
     
-    func redRawShape(shape:Shape, completion:@escaping ()->()){
+    func redrawShape(shape:Shape, completion:@escaping ()->()){
+        //print("redawShape: \(shape.description)")
         for block in shape.blocks{
             let sprite = block.sprite!
             let moveTo = pointForColumn(column: block.column, row: block.row)

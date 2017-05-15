@@ -52,7 +52,7 @@ class Block: Hashable,CustomStringConvertible{
     }
     
     var description: String{
-        return "\(color):[\(column),\(row)"
+        return "\(color):[\(column),\(row)]"
     }
     
     init(column:Int, row:Int, color:BlockColor) {
